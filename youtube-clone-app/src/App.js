@@ -1,13 +1,13 @@
 import React from 'react';
+import Header from './Header.js'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Hi we are making a Youtube clone🚀</h1>
-      </header>
+      <Header />
+
     </div>
     /* Header -> <Header /> */
   /* Sidebar -> <Sidebar /> */
