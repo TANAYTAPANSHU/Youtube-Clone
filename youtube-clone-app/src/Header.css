@@ -3,9 +3,47 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
 }
 
 .header_logo {
-    height: 70px;
+    height: 100px;
     object-fit: contain;
+    margin-left: 20px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.header__input>input {
+    flex: 1;
+    font-size: larger;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17%;
+}
+
+.header__button {
+    color: gray;
+    border-left: 1px solid grey;
+    background-color: #F8F8F8;
+    width: 2em;
 }

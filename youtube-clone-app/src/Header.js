@@ -14,16 +14,16 @@ function Header() {
         <div className="header">
          
          <div className="header__left">
-           <MenuSharpIcon color="primary" style={{ fontSize: 25 }}/>
+           <MenuSharpIcon color="primary" style={{ fontSize: 35 }}/>
            
             <img src={dev} 
             className="header_logo"
              ></img>
              </div>
-              <div className="header__search">
-           <input type="text">
+              <div className="header__input">
+           <input type="text" placeholder="Search">
            </input>
-           <SearchIcon></SearchIcon>
+           <SearchIcon className="header__button"></SearchIcon>
            </div>
            <div className="header__icons">
             <VideoCallRoundedIcon fontSize="large" />
