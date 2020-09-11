@@ -18,7 +18,7 @@
 
 .SidebarRow:hover {
     cursor: pointer;
-    background-color: #F2F2F2;
+    background-color: black;
 }
 
 .SidebarRow:hover>.SidebarRow__icon {
@@ -26,7 +26,7 @@
 }
 
 .SidebarRow:hover>.SidebarRow__title {
-    color: black;
+    color: white;
     font-weight: 900;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .SidebarRow.selected {
-    background-color: #F2F2F2;
+    background-color: black;
 }
 
 .SidebarRow.selected>.SidebarRow__icon {
@@ -49,6 +49,6 @@
 }
 
 .SidebarRow.selected>.SidebarRow__title {
-    color: black;
+    color: white;
     font-weight: 900;
 }

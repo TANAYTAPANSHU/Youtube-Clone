@@ -1,3 +1,16 @@
 .recommendedVideos {
     flex: 0.8;
+    border: 1px solid black;
+    padding: 10px 10px;
+    padding-bottom: 0px;
+}
+
+.recommendedVideos>h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.RecommendedVideos___videos {
+    display: flex;
+    flex-wrap: wrap;
 }
