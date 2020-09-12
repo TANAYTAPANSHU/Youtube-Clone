@@ -4,12 +4,12 @@
     justify-content: space-between;
     padding: 20px;
     position: sticky;
+    background-color: #252525;
 }
 
 .header_logo {
     height: 100px;
     object-fit: contain;
-    margin-left: 20px;
 }
 
 .header__input {
@@ -17,7 +17,7 @@
     align-items: center;
     border: 1px solid black;
     justify-content: space-between;
-    width: 40%;
+    flex: 0.4;
 }
 
 .header__input>input {
@@ -30,15 +30,16 @@
 
 .header__left {
     display: flex;
-    justify-content: space-between;
+    flex: 0.3;
     align-items: center;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 17%;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex: 0.3;
 }
 
 .header__button {
