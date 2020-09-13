@@ -22,10 +22,11 @@
     margin: 10px 60px;
 }
 
-.ChannelRow__text>h4 {
+.ChannelRow__text>h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .ChannelRow__text>h4>.MuiSvgIcon-root {

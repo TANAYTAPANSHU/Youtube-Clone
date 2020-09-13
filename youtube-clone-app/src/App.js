@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import SearchPage from './SearchPage';
+import SearchPage1 from './SearchPage1';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
     <Header />
        
     <Switch>
-     <Route path="/search/:searchTerm">
+      <Route path="/search/Warrior Programmer">
    
            <div className="app__page">
         
@@ -26,7 +27,17 @@ function App() {
        <SearchPage />
      </div>
 
+
      </Route>
+     <Route path="/search/:searchTerm">
+   
+           <div className="app__page">
+        
+      <Sidebar />
+       <SearchPage1 />
+     </div>
+    </Route>
+   
       <Route path="/">
      
      <div className="app__page">

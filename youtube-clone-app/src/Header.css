@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    padding-right: 10px;
     position: sticky;
-    background-color: #252525;
 }
 
 .header_logo {
+    height: 70px;
     height: 100px;
     object-fit: contain;
+    margin-right: 20px;
 }
 
 .header__input {
@@ -17,7 +19,7 @@
     align-items: center;
     border: 1px solid black;
     justify-content: space-between;
-    flex: 0.4;
+    flex: 0.5;
 }
 
 .header__input>input {
@@ -30,14 +32,14 @@
 
 .header__left {
     display: flex;
-    flex: 0.3;
+    justify-content: space-between;
     align-items: center;
+    flex: 0.2;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     justify-content: space-evenly;
     flex: 0.3;
 }

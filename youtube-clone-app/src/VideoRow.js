@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './VideoRow.css';
 
 function VideoRow({
     views,
@@ -10,8 +11,18 @@ function VideoRow({
     image
 }) {
     return (
-        <div>
-            
+        <div className="VideoRow">
+       <img src={image}  />
+       <div className="VideoRow__text">
+       <h3>{title}</h3>
+       <p>
+           {channel} * {subs} Subscribers {views} views * {timestamp}
+       </p>
+       <p>{description}</p>
+
+
+       </div>
+              
         </div>
     )
 }

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/95ff28ad-2528-4b4c-b9ab-416fd93e5267/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/DevTube",
+    "appService.deploySubpath": "youtube-clone-app\\build"
+}

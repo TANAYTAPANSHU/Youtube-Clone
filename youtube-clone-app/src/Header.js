@@ -1,7 +1,7 @@
 import React , { useState } from 'react';
 import "./Header.css"
 import VideoCallRoundedIcon from '@material-ui/icons/VideoCallRounded';
-import dev from "./Devtube (1).png";
+import dev from "./Devtube (3).png";
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
