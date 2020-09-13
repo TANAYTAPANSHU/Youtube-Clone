@@ -20,6 +20,7 @@
     height: 120px;
     width: 120px;
     margin: 10px 60px;
+    position: inherit;
 }
 
 .ChannelRow__text>h3 {
